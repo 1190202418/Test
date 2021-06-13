@@ -16,7 +16,7 @@ jobs:
     # 制定运行步骤
     steps:
     # 先将仓库的代码checkout到环境中，github提供了checkout的方法，只需要我们加上这条即可
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
     # 为接下来所执行的shell命名，可省略
     - name: executing
       run: 
