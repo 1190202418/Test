@@ -21,4 +21,4 @@ jobs:
     - name: executing
       run: 
         # 指定所要运行的shell
-        cat Test.java
+        cat test.java
